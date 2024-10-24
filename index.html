@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Talkshow</title>
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: JetBrains Mono;
+      }
+
+      body {
+        background-color: #000;
+        color: #fff;
+        line-height: 1.6;
+      }
+
+      /* Layout components */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      /* Header styles */
+      .header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #333;
+      }
+
+      .header h1 {
+        font-size: 24px;
+      }
+
+      .nav {
+        display: flex;
+        gap: 20px;
+      }
+
+      .nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .nav a:hover {
+        color: #999;
+      }
+
+      /* Main content styles */
+      .main-content {
+        padding: 40px 0;
+        text-align: center;
+      }
+
+      .event-title {
+        margin-bottom: 40px;
+      }
+
+      .event-title h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .event-title p {
+        font-size: 16px;
+        color: #ccc;
+      }
+
+      /* Speakers section */
+      .section {
+        margin-bottom: 40px;
+        border: 1px solid #333;
+        border-radius: 10px;
+        padding: 20px;
+      }
+
+      .section h3 {
+        margin-bottom: 30px;
+        font-size: 18px;
+      }
+
+      .speaker-cards {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 2%;
+        max-width: 800px;
+        margin: 0 auto;
+        border: 1px solid #333;
+        border-radius: 10px;
+      }
+
+      .speaker-card {
+        width: 150px;
+      }
+
+      .speaker-image {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 15px;
+      }
+
+      .speaker-image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid #999;
+      }
+
+      .speaker-name {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+
+      .speaker-title {
+        font-size: 12px;
+        color: #999;
+      }
+
+      /* Materials section */
+      .materi-sec {
+        text-align: left;
+        margin: 20px 0;
+        border: 1px solid #333;
+        border-radius: 10px;
+        padding: 20px;
+      }
+
+      .materi-sec h4 {
+        margin-bottom: 15px;
+        color: #ccc;
+      }
+
+      .materi-sec p {
+        color: #999;
+        font-size: 13px;
+      }
+
+      /* Footer styles */
+      footer {
+        text-align: center;
+        padding: 20px;
+        color: #666;
+        font-size: 12px;
+        border-top: 1px solid #333;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>IT TALKSHOW</h1>
+      <nav class="nav">
+        <a href="#pemateri">Pemateri</a>
+        <a href="#materi">Materi</a>
+      </nav>
+    </header>
+
+    <main class="main-content container">
+      <div class="event-title">
+        <h2>TALKSHOW IT TALKSHOW</h2>
+        <p>"GEN Z dan AI: Memelopori Solusi Berkelanjutan di Era Digital"</p>
+      </div>
+
+      <section class="section" id="pemateri">
+        <h3>Pemateri</h3>
+        <div class="speaker-cards">
+          <div class="speaker-card">
+            <div class="speaker-image">
+              <img src="bayu.jpeg" alt="Nofi Bayu Darmawan" />
+            </div>
+            <h4 class="speaker-name">Nofi Bayu Darmawan</h4>
+            <p class="speaker-title">CEO of Komerce</p>
+          </div>
+          <div class="speaker-card">
+            <div class="speaker-image">
+              <img src="nurul.jpeg" alt="Nurul Arifiah Gunarsih" />
+            </div>
+            <h4 class="speaker-name">Nurul Arifiah Gunarsih</h4>
+            <p class="speaker-title">Frontend Developer</p>
+          </div>
+          <div class="speaker-card">
+            <div class="speaker-image">
+              <img src="zaim.jpeg" alt="Muhammad Zaim Zamzami" />
+            </div>
+            <h4 class="speaker-name">Muhammad Zaim Zamzami</h4>
+            <p class="speaker-title">Programmer</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="materi">
+        <h3>Materi</h3>
+        <div class="materi-sec">
+          <h4>Muhammad Zaim Zamzami</h4>
+          <p>
+            AI telah menjadi bagian integral dalam kehidupan modern, khususnya
+            bagi Generasi Z. Teknologi ini tidak terbatas pada platform media
+            sosial saja, melainkan telah terintegrasi ke dalam berbagai aspek
+            kehidupan sehari-hari. Mulai dari teknologi smart home, kendaraan
+            pintar, hingga sektor-sektor vital seperti keuangan dan pertanian.
+            Dalam aspek keamanan digital, AI memainkan peran krusial untuk
+            mengelola konten online dan melindungi data pribadi pengguna. Lebih
+            jauh lagi, AI berkontribusi dalam pengembangan solusi berkelanjutan,
+            terutama di sektor energi, dengan membantu mengoptimalkan penggunaan
+            sumber daya melalui sistem pemantauan yang canggih. Meski membawa
+            berbagai kemudahan, Generasi Z perlu menghadapi tantangan baru yang
+            muncul seiring perkembangan AI. Penting bagi mereka untuk
+            menggunakan teknologi ini secara bijaksana demi kepentingan bersama.
+          </p>
+        </div>
+        <div class="materi-sec">
+          <h4>Nurul Arifiah Gunarsih</h4>
+          <p>
+            Generasi Z lahir dan berkembang di era revolusi teknologi, di mana
+            Artificial Intelligence (AI) sudah menjadi bagian tak terpisahkan
+            dari rutinitas harian mereka. Teknologi AI tidak hanya berperan
+            sebagai alat bantu dalam kegiatan akademis dan profesional, tetapi
+            juga menjadi solusi dalam mengatasi berbagai permasalahan yang
+            rumit. Namun, Ka Nurul memberikan penekanan khusus pada pentingnya
+            penggunaan AI secara bijaksana oleh Generasi Z. Meski AI memiliki
+            potensi besar untuk memberikan manfaat positif, teknologi ini juga
+            bisa berdampak buruk jika tidak digunakan dengan tepat. Dengan
+            pemahaman yang baik tentang AI, Generasi Z dapat memanfaatkannya
+            sebagai alat untuk meningkatkan kualitas hidup dan mengembangkan
+            solusi-solusi yang berkelanjutan di berbagai bidang.
+          </p>
+        </div>
+        <div class="materi-sec">
+          <h4>Nofi Bayu Darmawan</h4>
+          <p>
+            Ka Bayu menjabarkan potensi AI sebagai alat transformatif dalam
+            lingkungan kerja modern. AI memiliki kapabilitas untuk mengautomasi
+            tugas-tugas rutin yang bersifat teknis, sehingga dapat meningkatkan
+            efisiensi kerja dan meminimalisir kesalahan yang biasa terjadi dalam
+            proses operasional manual. Dalam penjelasannya, AI terbukti mampu
+            mendongkrak produktivitas di berbagai sektor industri, termasuk
+            digital marketing, pengolahan data, hingga proses produksi di
+            industri manufaktur. Hal ini dibuktikan melalui pengalaman nyata
+            implementasi AI di Komerce, startup yang ia pimpin, di mana
+            teknologi ini telah secara signifikan meningkatkan efisiensi
+            operasional. Ka Bayu menegaskan bahwa implementasi AI yang strategis
+            dapat menjadi katalis dalam meningkatkan daya saing, baik bagi
+            perusahaan maupun individu di era digital ini.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Wahyu Akhmad Fadillah | 23090118 | 3C</p>
+    </footer>
+  </body>
+</html>
